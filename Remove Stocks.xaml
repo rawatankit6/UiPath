@@ -70,7 +70,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:FindChildren Children="[watchlistDiv]" DisplayName="Find Children" Filter="&lt;webctrl /&gt;" sap:VirtualizedContainerService.HintSize="735,68" sap2010:WorkflowViewState.IdRef="FindChildren_1" Scope="FIND_CHILDREN">
       <ui:FindChildren.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html app='chrome.exe' title='Manage Stock Watchlist - Screener' /&gt;&#xA;&lt;webctrl parentid='watchlist-content' tag='UL' /&gt;&#xA;" WaitForReady="INTERACTIVE" />
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html app='chrome.exe' title='Manage Core Watchlist - Screener' /&gt;&lt;webctrl parentid='watchlist-content' tag='UL' /&gt;" WaitForReady="INTERACTIVE" />
       </ui:FindChildren.Target>
     </ui:FindChildren>
     <ui:ForEach x:TypeArguments="ui:UiElement" CurrentIndex="[getIndex]" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="735,1251" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[watchlistDiv]">
@@ -138,7 +138,7 @@
                         </ui:CursorPosition>
                       </ui:Click.CursorPosition>
                       <ui:Click.Target>
-                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="[&quot;&lt;html app='chrome.exe' title='Manage Stock Watchlist - Screener' /&gt;&lt;webctrl idx='&quot;&amp; getIndex &amp;&quot;' tag='BUTTON' type='button' /&gt;&quot;]" WaitForReady="INTERACTIVE" />
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="[&quot;&lt;html app='chrome.exe' title='Manage Core Watchlist - Screener' /&gt;&quot;+&#xD;&#xA;&quot;&lt;webctrl tag='BUTTON' type='button' idx='&quot;&amp; getIndex &amp;&quot;' /&gt;&quot;]" WaitForReady="INTERACTIVE" />
                       </ui:Click.Target>
                     </ui:Click>
                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="314,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Loop Iterations &quot;+getIndex.ToString]" />

@@ -60,7 +60,7 @@
           </sap:WorkflowViewStateService.ViewState>
           <ui:UiElementExists Exists="{x:Null}" DisplayName="Check if button exists" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
             <ui:UiElementExists.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="ee0c46412ef9ea28836a4bd2feab8f71" Selector="&lt;html app='chrome.exe' title='Manage Stock Watchlist - Screener' /&gt;&lt;webctrl tag='BUTTON' type='submit' parentid='top-nav-menu' /&gt;" TimeoutMS="3000" WaitForReady="COMPLETE" />
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="ee0c46412ef9ea28836a4bd2feab8f71" Selector="&lt;html app='chrome.exe' title='Manage * Watchlist - Screener' /&gt;&lt;webctrl parentid='top-nav-menu' idx='14' /&gt;" TimeoutMS="3000" WaitForReady="COMPLETE" />
             </ui:UiElementExists.Target>
           </ui:UiElementExists>
           <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Logout" sap:VirtualizedContainerService.HintSize="314,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
@@ -75,7 +75,7 @@
               </ui:CursorPosition>
             </ui:Click.CursorPosition>
             <ui:Click.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="ee0c46412ef9ea28836a4bd2feab8f71" Selector="&lt;html app='chrome.exe' title='Manage Stock Watchlist - Screener' /&gt;&lt;webctrl tag='BUTTON' type='submit' parentid='top-nav-menu' /&gt;" WaitForReady="INTERACTIVE" />
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="ee0c46412ef9ea28836a4bd2feab8f71" Selector="&lt;html app='chrome.exe' title='Manage * Watchlist - Screener' /&gt;&lt;webctrl parentid='top-nav-menu' idx='14' /&gt;" WaitForReady="INTERACTIVE" />
             </ui:Click.Target>
           </ui:Click>
         </Sequence>

@@ -63,7 +63,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" Activate="True" ClickBeforeTyping="True" DelayMS="1000" DisplayName="Type Into 'INPUT  watchlist-search'" EmptyField="True" sap:VirtualizedContainerService.HintSize="314,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="True" Text="[StockName]">
       <ui:TypeInto.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="86195d84db2968572ac70f2aa387bb23" Selector="&lt;html app='chrome.exe' title='Manage Stock Watchlist - Screener' /&gt;&lt;webctrl id='watchlist-search' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="86195d84db2968572ac70f2aa387bb23" Selector="&lt;html app='chrome.exe' omit:title='Manage * Watchlist - Screener' /&gt;&lt;webctrl id='watchlist-search' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
       </ui:TypeInto.Target>
     </ui:TypeInto>
     <ui:Hover DelayBefore="{x:Null}" DelayMS="{x:Null}" sap:VirtualizedContainerService.HintSize="314,68" sap2010:WorkflowViewState.IdRef="Hover_1" SendWindowMessages="False" SimulateHover="False">
@@ -78,7 +78,7 @@
         </ui:CursorPosition>
       </ui:Hover.CursorPosition>
       <ui:Hover.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html app='chrome.exe' title='Manage Stock Watchlist - Screener' /&gt;&#xA;&lt;webctrl idx='1' tag='LI' /&gt;" WaitForReady="INTERACTIVE" />
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html app='chrome.exe' title='Manage * Watchlist - Screener' /&gt;&lt;webctrl tag='LI' idx='1' /&gt;" WaitForReady="INTERACTIVE" />
       </ui:Hover.Target>
     </ui:Hover>
     <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" sap:VirtualizedContainerService.HintSize="314,68" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
@@ -93,7 +93,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html app='chrome.exe' title='Manage Stock Watchlist - Screener' /&gt;&#xA;&lt;webctrl idx='1' tag='LI' /&gt;" WaitForReady="INTERACTIVE" />
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;html app='chrome.exe' title='Manage * Watchlist - Screener' /&gt;&lt;webctrl tag='LI' idx='1' /&gt;" WaitForReady="INTERACTIVE" />
       </ui:Click.Target>
     </ui:Click>
     <Assign sap:VirtualizedContainerService.HintSize="314,60" sap2010:WorkflowViewState.IdRef="Assign_1">
